@@ -1,5 +1,7 @@
 import com.test.classExample.Customer
 import com.test.classExample.Member
+import com.test.fuctional.hello
+import com.test.fuctional.toTitleCase
 import java.lang.IllegalArgumentException
 import java.util.*
 
@@ -62,6 +64,10 @@ fun main(args: Array<String>) {
     val customer1 = Customer(10, "neko", "neko@gmail.com")
     println(customer1)
     println(customer1.toString())
+
+//    extension function call
+    "hello world".hello()
+    println("hello world".toTitleCase())
 }
 
 fun printStrings(vararg strings: String) {
