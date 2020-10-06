@@ -21,4 +21,6 @@ fun main() {
         println(item)
     val a = Array(6,{1000.0.pow(it)})
 
+    
+
 }
